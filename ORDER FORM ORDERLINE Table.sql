@@ -1,0 +1,7 @@
+USE ORDERFORM;
+
+CREATE TABLE ORDERLINE(
+	OrderNumber INT NOT NULL REFERENCES FORM(OrderNumber),
+    ProductNumber INT NOT NULL REFERENCES PRODUCT(ProductNumber),
+    Quantity INT NOT NULL
+);
