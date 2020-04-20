@@ -1,7 +1,7 @@
 USE ORDERFORM;
 
 CREATE TABLE Product(
-	ProductNumber INT PRIMARY KEY NOT NULL,
+	ProductNumber VARCHAR(20) PRIMARY KEY NOT NULL,
     Description VARCHAR(50) NOT NULL,
     UnitPrice DOUBLE NOT NULL
 );
