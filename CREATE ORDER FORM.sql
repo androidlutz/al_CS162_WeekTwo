@@ -25,6 +25,7 @@ C345	Sharpener	8
 
 SELECT * FROM form;
 1234	0	1998-11-04
+I could not get the CustomerId to retain a value.  I believe my syntax was correct but it was not working.  
        
 SELECT * FROM customer;
 1234	Billy	456 Hightower Street, Hong Kong, China
