@@ -32,7 +32,8 @@ SELECT * FROM customer;
 
 SELECT * FROM orderline;
 1	1234	A123	100
-
+2	1234	B234	200
+3	1234	C345	5
 
 
 */
